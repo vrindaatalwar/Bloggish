@@ -2,6 +2,13 @@
 
 **Bloggish** is a modern and responsive blogging website template built using HTML and Tailwind CSS. It features a clean layout, intuitive navigation, and a structured design, making it ideal for presenting blog content or showcasing writing projects.
 
+## Screenshots
+![Alt text for the image](Bloggish/preview1.png)
+![Alt text for the image](Bloggish/preview2.png)
+---
+![Alt text for the image](Bloggish/previewPhone1.png)
+![Alt text for the image](Bloggish/previewPhone2.png)
+![Alt text for the image](Bloggish/previewPhone3.png)
 ## Features
 
 * Fully responsive design for all screen sizes
