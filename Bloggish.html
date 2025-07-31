@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-black font-[Roboto]">
+    <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-10 lg:px-20 py-6">
+      <div class="flex items-center gap-x-2 mb-4 md:mb-0">
+        <img src="logomark_white.svg" width="25" class="h-6" />
+        <p class="text-white font-medium text-2xl">Bloggish</p>
+      </div>
+      <div class="flex flex-col md:flex-row gap-2 md:gap-4 text-center md:text-left mb-4 md:mb-0">
+        <div class="text-white font-medium cursor-pointer">Home</div>
+        <div class="text-gray-500 hover:text-white font-medium cursor-pointer">About</div>
+        <div class="text-gray-500 hover:text-white font-medium cursor-pointer">Contact</div>
+        <div class="text-gray-500 hover:text-white font-medium cursor-pointer">Blogs</div>
+      </div>
+      <div>
+        <button class="bg-gray-900 px-4 py-2 rounded-full text-white font-medium hover:bg-gray-500">Login</button>
+      </div>
+    </div>
+
+    <div class="relative flex items-center justify-center pt-6 px-4">
+      <img src="https://polar.sh/assets/landing/hero.jpg" alt="img" class="rounded-3xl w-full max-w-6xl object-cover" />
+      <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+        <p class="text-white text-3xl sm:text-4xl md:text-6xl font-bold">Welcome to Bloggish</p>
+        <p class="text-white text-lg sm:text-xl md:text-2xl font-light pt-2">A way to express yourself</p>
+        <button class="mt-4 bg-gray-900 text-white px-5 py-2 rounded-full hover:bg-gray-500">Login</button>
+      </div>
+    </div>
+
+    <div class="px-4 sm:px-10 md:px-20 py-10 md:py-20">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="bg-zinc-900 rounded-xl border border-zinc-600 hover:bg-zinc-800 hover:shadow-lg shadow-white">
+          <div class="p-5 text-white text-xl sm:text-2xl font-medium text-center">
+            Environmental Degradation
+          </div>
+          <div class="flex justify-center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjYEMUIrSaupXMh5BWHAuRbWUhaWeUKwxiNA&s" class="rounded-xl w-72 h-44 object-cover" />
+          </div>
+          <div class="px-5 pt-3 text-gray-500 text-sm sm:text-base text-center">
+            Environmental degradation refers to the deterioration of the natural environment...
+          </div>
+          <div class="px-5 pt-4 pb-5 text-white text-sm sm:text-base text-center">
+            <a href="https://en.wikipedia.org/wiki/Environmental_degradation" class="underline">Read More</a>
+          </div>
+        </div>
+
+        <div class="bg-zinc-900 rounded-xl border border-zinc-600 hover:bg-zinc-800 hover:shadow-lg shadow-white">
+          <div class="p-5 text-white text-xl sm:text-2xl font-medium text-center">
+            Mental Health
+          </div>
+          <div class="flex justify-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Primary_school_children_in_classroom.jpg/500px-Primary_school_children_in_classroom.jpg" class="rounded-xl w-72 h-44 object-cover" />
+          </div>
+          <div class="px-5 pt-3 text-gray-500 text-sm sm:text-base text-center">
+            Mental health in education is the impact that mental health (including emotional...
+          </div>
+          <div class="px-5 pt-4 pb-5 text-white text-sm sm:text-base text-center">
+            <a href="https://en.wikipedia.org/wiki/Mental_health_in_education" class="underline">Read More</a>
+          </div>
+        </div>
+
+        <div class="bg-zinc-900 rounded-xl border border-zinc-600 hover:bg-zinc-800 hover:shadow-lg shadow-white">
+          <div class="p-5 text-white text-xl sm:text-2xl font-medium text-center">
+            The Effect of Peer Pressure
+          </div>
+          <div class="flex justify-center">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIkqFLOQ-jfSkLLyyC7f6rmarcwYNuWG1BHw&s" class="rounded-xl w-72 h-44 object-cover" />
+          </div>
+          <div class="px-5 pt-3 text-gray-500 text-sm sm:text-base text-center">
+            Peer pressure is a direct or indirect influence on peers, i.e., members of social groups...
+          </div>
+          <div class="px-5 pt-4 pb-5 text-white text-sm sm:text-base text-center">
+            <a href="https://en.wikipedia.org/wiki/Peer_pressure" class="underline">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-white bg-zinc-900 py-5 flex items-center justify-center text-sm sm:text-base">
+      &copy; 2025 Bloggish. All rights reserved.
+    </footer>
+  </body>
+</html>
